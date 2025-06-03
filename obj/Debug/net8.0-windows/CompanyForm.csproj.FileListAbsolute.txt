@@ -1,0 +1,281 @@
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.exe
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.deps.json
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.runtimeconfig.json
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.pdb
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Humanizer.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.AssemblyReference.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.GenerateResource.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfoInputs.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfo.cs
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.CoreCompileInputs.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyF.26F8239A.Up2Date
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\refint\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.pdb
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.genruntimeconfig.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\ref\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\bin\Debug\net8.0-windows\appsettings.json
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompnayForm.MainForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Owner.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.NavigationForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Properties.Resources.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AdvancedForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.CustomerForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.SupplierForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.AssemblyReference.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AdvancedForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.CustomerForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompnayForm.MainForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.NavigationForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Owner.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Properties.Resources.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.SupplierForm.resources
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.GenerateResource.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfoInputs.cache
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfo.cs
+D:\Abelrahman\Abdelrahman Current\ITI Current Full Stack .NET\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.CoreCompileInputs.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AdvancedForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.CustomerForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompnayForm.MainForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.NavigationForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Owner.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Properties.Resources.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.SupplierForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.GenerateResource.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfoInputs.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.AssemblyInfo.cs
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.CoreCompileInputs.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.AssemblyReference.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\appsettings.json
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.exe
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.deps.json
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.runtimeconfig.json
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\CompanyForm.pdb
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Humanizer.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyF.26F8239A.Up2Date
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\refint\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.pdb
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.genruntimeconfig.cache
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\ref\CompanyForm.dll

@@ -17,7 +17,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 namespace CompanyForm
 {
 
-    public partial class Owner : Form
+    public partial class OwnerForm : Form
     {
         string option;
         private readonly CompanyWarehouseContext context = new CompanyWarehouseContext();
@@ -30,7 +30,7 @@ namespace CompanyForm
             Customer
         }
 
-        public Owner()
+        public OwnerForm()
         {
             InitializeComponent();
         }

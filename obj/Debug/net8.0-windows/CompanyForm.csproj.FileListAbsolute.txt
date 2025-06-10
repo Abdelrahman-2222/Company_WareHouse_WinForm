@@ -149,7 +149,6 @@ D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\ob
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.CustomerForm.resources
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompnayForm.MainForm.resources
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.NavigationForm.resources
-D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Owner.resources
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Properties.Resources.resources
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.SupplierForm.resources
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.csproj.GenerateResource.cache
@@ -279,3 +278,14 @@ D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\ob
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.pdb
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.genruntimeconfig.cache
 D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\ref\CompanyForm.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.sourcelink.json
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Forms.LoginForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Forms.RegisterForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Identity.Core.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\bin\Debug\net8.0-windows\Microsoft.Extensions.Identity.Stores.dll
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.OwnerForm.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Forms.NotificationControl.resources
+D:\Abelrahman\Abdelrahman Current\Company EF Core WinForm Project\CompnayForm\obj\Debug\net8.0-windows\CompanyForm.Forms.NotificationForm.resources

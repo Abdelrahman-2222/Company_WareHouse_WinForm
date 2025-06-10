@@ -32,5 +32,9 @@ namespace CompnayForm.Entities
         // Navigation Properties (Ternary Operations)
         public ICollection<SupplyVoucher> SupplyVouchers { get; set; }
         public ICollection<DisbursementVoucher> DisbursementVouchers { get; set; }
+
+        //// Add to Warehouse class
+        public int? OwnerId { get; set; }
+        public Owner Owner { get; set; }
     }
 }

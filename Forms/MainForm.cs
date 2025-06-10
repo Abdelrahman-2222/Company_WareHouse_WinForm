@@ -14,15 +14,48 @@ namespace CompnayForm
         private void OwnerBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var ownerForm = new Owner();
-            ownerForm.OwnerGridView.Visible = false;
-            ownerForm.ShowDialog(this);
+            var navigationForm = new NavigationForm();
+
+            navigationForm.NOwnerBtn.Size = new Size(267, 152);
+            navigationForm.NOwnerBtn.Location = new Point(87, 125);
+            navigationForm.RegisteredOwnerBtn.Size = new Size(267, 152);
+            navigationForm.RegisteredOwnerBtn.Location = new Point(395, 125);
+
+            navigationForm.NOwnerBtn.Visible = true;
+            navigationForm.RegisteredOwnerBtn.Visible = true;
+
+            navigationForm.ShowDialog(this);
         }
 
         private void CustomerBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
             var navigationForm = new NavigationForm();
+
+            navigationForm.NewCustBtn.Size = new Size(267, 152);
+            navigationForm.NewCustBtn.Location = new Point(87, 125);
+            navigationForm.RegistBtn.Size = new Size(267, 152);
+            navigationForm.RegistBtn.Location = new Point(395, 125);
+
+            navigationForm.NewCustBtn.Visible = true;
+            navigationForm.RegistBtn.Visible = true;
+
+            navigationForm.ShowDialog(this);
+        }
+
+        private void SupplierBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var navigationForm = new NavigationForm();
+
+            navigationForm.NewSBtn.Size = new Size(267, 152);
+            navigationForm.NewSBtn.Location = new Point(87, 125);
+            navigationForm.RegistSBtn.Size = new Size(267, 152);
+            navigationForm.RegistSBtn.Location = new Point(395, 125);
+
+            navigationForm.NewSBtn.Visible = true;
+            navigationForm.RegistSBtn.Visible = true;
+
             navigationForm.ShowDialog(this);
         }
 
@@ -76,5 +109,7 @@ namespace CompnayForm
             SupplierBtn.Left = (this.ClientSize.Width - buttonWidth) / 2;
             SupplierBtn.Top = CustomerBtn.Bottom + spacing;
         }
+
+
     }
 }

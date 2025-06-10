@@ -1,6 +1,6 @@
 ﻿namespace CompanyForm
 {
-    partial class Owner
+    partial class OwnerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Owner));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OwnerForm));
             OwnerGridView = new DataGridView();
             SaveBtn = new Button();
             toolStrip1 = new ToolStrip();

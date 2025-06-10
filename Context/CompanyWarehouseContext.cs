@@ -73,13 +73,23 @@ namespace CompnayForm.Context
 
                 SVL.Property(SVLE => SVLE.SupplyVoucherListDaysUntilExpiration)
                     .HasComputedColumnSql("DATEDIFF(day, GETDATE(), SupplyVoucherListExpirationDate)");
+
+                SVL.HasOne(svl => svl.Item)
+                    .WithMany(i => i.SupplyVoucherLists)
+                    .HasForeignKey(svl => svl.ItemId)
+                    .OnDelete(DeleteBehavior.Restrict);
             });
                 
 
             modelBuilder.Entity<DisbursementVoucherList>()
                 .HasKey(DVL => new { DVL.DisbursementVoucherId, DVL.ItemId });
 
-                
+            modelBuilder.Entity<DisbursementVoucherList>()
+                .HasOne(dvl => dvl.Item)
+                .WithMany(i => i.DisbursementVoucherLists)
+                .HasForeignKey(dvl => dvl.ItemId)
+                .OnDelete(DeleteBehavior.Restrict); // Changed from Cascade to Restrict
+
 
             modelBuilder.Entity<TransferOperation>(TO =>
             {
@@ -98,6 +108,74 @@ namespace CompnayForm.Context
             }
                 );
 
+            modelBuilder.Entity<AppUser>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
+
+            modelBuilder.Entity<AppUser>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
+            //// Warehouse ownership
+            //modelBuilder.Entity<Warehouse>()
+            //    .HasOne<AppUser>()
+            //    .WithMany()
+            //    .HasForeignKey(w => w.OwnerId)
+            //    .OnDelete(DeleteBehavior.SetNull);
+
+            // Customer user association
+            modelBuilder.Entity<Customer>()
+                .HasOne(c => c.User)
+                .WithOne()
+                .HasForeignKey<Customer>(c => c.UserId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Supplier user association
+            modelBuilder.Entity<Supplier>()
+                .HasOne(s => s.User)
+                .WithOne()
+                .HasForeignKey<Supplier>(s => s.UserId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // OR for Option B
+            modelBuilder.Entity<Warehouse>()
+                .HasOne(w => w.Owner)
+                .WithMany()
+                .HasForeignKey(w => w.OwnerId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Add to your OnModelCreating method
+            modelBuilder.Entity<CustomerOwnerRelationship>()
+                .HasOne(r => r.Customer)
+                .WithMany()
+                .HasForeignKey(r => r.CustomerId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<CustomerOwnerRelationship>()
+                .HasOne(r => r.Owner)
+                .WithMany()
+                .HasForeignKey(r => r.OwnerId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<SupplierOwnerRelationship>()
+                .HasOne(r => r.Supplier)
+                .WithMany()
+                .HasForeignKey(r => r.SupplierId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<SupplierOwnerRelationship>()
+                .HasOne(r => r.Owner)
+                .WithMany()
+                .HasForeignKey(r => r.OwnerId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Notification>()
+                .HasOne(n => n.Recipient)
+                .WithMany()
+                .HasForeignKey(n => n.RecipientUserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+
 
             base.OnModelCreating(modelBuilder);
         }
@@ -113,5 +191,16 @@ namespace CompnayForm.Context
         public virtual DbSet<ItemUnitOfMeasurement> ItemUnitOfMeasurements { get; set; }
         public virtual DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
         public virtual DbSet<TransferOperation> TransferOperations { get; set; }
+        public virtual DbSet<AppUser> Users { get; set; }
+        public virtual DbSet<Owner> Owners { get; set; }
+
+        public virtual DbSet<SupplierOwnerRelationship> SupplierOwnerRelationships { get; set; }
+
+        public virtual DbSet<CustomerOwnerRelationship> CustomerOwnerRelationships { get; set; }
+
+        public virtual DbSet<Notification> Notifications { get; set; }
+
+        //public virtual DbSet<MyEnum> Enums { get; set; }
+
     }
 }

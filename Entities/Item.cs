@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CompanyForm.AppConfiguration;
+using CompnayForm.Entities;
 
 namespace CompanyForm.Entities
 {
@@ -27,5 +28,10 @@ namespace CompanyForm.Entities
         public ICollection<SupplyVoucherList> SupplyVoucherLists { get; set; }
         public ICollection<DisbursementVoucherList> DisbursementVoucherLists { get; set; }
         public ICollection<TransferOperation> TransferOperations { get; set; }
+
+        [MaxLength(50)]
+        public string Category { get; set; }
+        public int WarehouseId { get; set; }
+        public Warehouse Warehouse { get; set; }
     }
 }

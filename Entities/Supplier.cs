@@ -29,5 +29,9 @@ namespace CompanyForm.Entities
 
         public ICollection<SupplyVoucher> SupplierVouchers { get; set; }
         public ICollection<TransferOperation> TransferOperations { get; set; }
+
+        // Add to Customer class
+        public int? UserId { get; set; }
+        public AppUser User { get; set; }
     }
 }

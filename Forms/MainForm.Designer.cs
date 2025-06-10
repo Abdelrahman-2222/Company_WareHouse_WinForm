@@ -62,7 +62,7 @@
             CustomerBtn.TabIndex = 1;
             CustomerBtn.Text = "Are you the Customer?";
             CustomerBtn.UseVisualStyleBackColor = false;
-            CustomerBtn.Click += this.CustomerBtn_Click;
+            CustomerBtn.Click += CustomerBtn_Click;
             // 
             // SupplierBtn
             // 
@@ -77,6 +77,7 @@
             SupplierBtn.TabIndex = 2;
             SupplierBtn.Text = "Are you the Supplier?";
             SupplierBtn.UseVisualStyleBackColor = true;
+            SupplierBtn.Click += SupplierBtn_Click;
             // 
             // WelcomeLbl
             // 

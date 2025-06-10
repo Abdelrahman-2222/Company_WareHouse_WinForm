@@ -1,33 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="AdvancedForm.cs">
+    <Compile Update="Forms\AdvancedForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForm.cs">
+    <Compile Update="Forms\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MainForm.cs">
+    <Compile Update="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="NavigationForm.cs">
+    <Compile Update="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Owner.cs">
+    <Compile Update="Forms\NavigationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SupplierForm.cs">
+    <Compile Update="Forms\NotificationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OwnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="AdvancedForm.resx">
+    <EmbeddedResource Update="Forms\AdvancedForm.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Update="CustomerForm.resx">
+    <EmbeddedResource Update="Forms\CustomerForm.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Update="Owner.resx">
+    <EmbeddedResource Update="Forms\OwnerForm.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>

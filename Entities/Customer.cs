@@ -44,5 +44,9 @@ namespace CompanyForm.Entities
         public string? CustomerPhone { get; set; }
 
         public ICollection<DisbursementVoucher> DisbursementVouchers { get; set; }
+
+        // Add to Customer class
+        public int? UserId { get; set; }
+        public AppUser User { get; set; }
     }
 }

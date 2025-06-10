@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CompanyForm.Migrations
 {
     [DbContext(typeof(CompanyWarehouseContext))]
-    [Migration("20250531143331_RestrictionAdded")]
-    partial class RestrictionAdded
+    [Migration("20250610220017_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,48 @@ namespace CompanyForm.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("CompanyForm.Entities.AppUser", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("LastLogin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("UserId");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.HasIndex("Username")
+                        .IsUnique();
+
+                    b.ToTable("Users");
+                });
 
             modelBuilder.Entity("CompanyForm.Entities.Customer", b =>
                 {
@@ -56,9 +98,48 @@ namespace CompanyForm.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("CustomerId");
 
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
+
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.CustomerOwnerRelationship", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("ApprovalDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OwnerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("OwnerId");
+
+                    b.ToTable("CustomerOwnerRelationships");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.DisbursementVoucher", b =>
@@ -119,6 +200,11 @@ namespace CompanyForm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ItemId"));
 
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.Property<int>("ItemCode")
                         .HasColumnType("int");
 
@@ -127,10 +213,15 @@ namespace CompanyForm.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int>("WarehouseId")
+                        .HasColumnType("int");
+
                     b.HasKey("ItemId");
 
                     b.HasIndex("ItemCode")
                         .IsUnique();
+
+                    b.HasIndex("WarehouseId");
 
                     b.ToTable("Items");
                 });
@@ -148,6 +239,75 @@ namespace CompanyForm.Migrations
                     b.HasIndex("UnitOfMeasurementId");
 
                     b.ToTable("ItemUnitOfMeasurements");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Notification", b =>
+                {
+                    b.Property<int>("NotificationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NotificationId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("EntityId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("EntityType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("NotificationType")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("RecipientUserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("NotificationId");
+
+                    b.HasIndex("RecipientUserId");
+
+                    b.ToTable("Notifications");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Owner", b =>
+                {
+                    b.Property<int>("OwnerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OwnerId"));
+
+                    b.Property<string>("OwnerEmail")
+                        .IsRequired()
+                        .HasMaxLength(65)
+                        .HasColumnType("nvarchar(65)");
+
+                    b.Property<string>("OwnerName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OwnerId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Owners");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.Supplier", b =>
@@ -173,9 +333,48 @@ namespace CompanyForm.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("SupplierId");
 
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
+
                     b.ToTable("Suppliers");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.SupplierOwnerRelationship", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("ApprovalDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OwnerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SupplierId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OwnerId");
+
+                    b.HasIndex("SupplierId");
+
+                    b.ToTable("SupplierOwnerRelationships");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.SupplyVoucher", b =>
@@ -220,7 +419,8 @@ namespace CompanyForm.Migrations
 
                     b.Property<int>("SupplyVoucherListDaysUntilExpiration")
                         .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasComputedColumnSql("DATEDIFF(day, GETDATE(), SupplyVoucherListExpirationDate)");
 
                     b.Property<DateTime>("SupplyVoucherListExpirationDate")
                         .HasColumnType("datetime2");
@@ -306,6 +506,9 @@ namespace CompanyForm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WarehouseId"));
 
+                    b.Property<int?>("OwnerId")
+                        .HasColumnType("int");
+
                     b.Property<string>("WarehouseAddress")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -323,7 +526,38 @@ namespace CompanyForm.Migrations
 
                     b.HasKey("WarehouseId");
 
+                    b.HasIndex("OwnerId");
+
                     b.ToTable("Warehouses");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Customer", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.AppUser", "User")
+                        .WithOne()
+                        .HasForeignKey("CompanyForm.Entities.Customer", "UserId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.CustomerOwnerRelationship", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CompanyForm.Entities.Owner", "Owner")
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Owner");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.DisbursementVoucher", b =>
@@ -356,12 +590,23 @@ namespace CompanyForm.Migrations
                     b.HasOne("CompanyForm.Entities.Item", "Item")
                         .WithMany("DisbursementVoucherLists")
                         .HasForeignKey("ItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("DisbursementVoucher");
 
                     b.Navigation("Item");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Item", b =>
+                {
+                    b.HasOne("CompnayForm.Entities.Warehouse", "Warehouse")
+                        .WithMany()
+                        .HasForeignKey("WarehouseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Warehouse");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.ItemUnitOfMeasurement", b =>
@@ -381,6 +626,55 @@ namespace CompanyForm.Migrations
                     b.Navigation("Item");
 
                     b.Navigation("UnitOfMeasurement");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Notification", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.AppUser", "Recipient")
+                        .WithMany()
+                        .HasForeignKey("RecipientUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Recipient");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Owner", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.Supplier", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.AppUser", "User")
+                        .WithOne()
+                        .HasForeignKey("CompanyForm.Entities.Supplier", "UserId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CompanyForm.Entities.SupplierOwnerRelationship", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.Owner", "Owner")
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CompanyForm.Entities.Supplier", "Supplier")
+                        .WithMany()
+                        .HasForeignKey("SupplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Owner");
+
+                    b.Navigation("Supplier");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.SupplyVoucher", b =>
@@ -407,7 +701,7 @@ namespace CompanyForm.Migrations
                     b.HasOne("CompanyForm.Entities.Item", "Item")
                         .WithMany("SupplyVoucherLists")
                         .HasForeignKey("ItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("CompanyForm.Entities.SupplyVoucher", "SupplyVoucher")
@@ -454,6 +748,16 @@ namespace CompanyForm.Migrations
                     b.Navigation("Supplier");
 
                     b.Navigation("ToWarehouse");
+                });
+
+            modelBuilder.Entity("CompnayForm.Entities.Warehouse", b =>
+                {
+                    b.HasOne("CompanyForm.Entities.Owner", "Owner")
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Owner");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.Customer", b =>

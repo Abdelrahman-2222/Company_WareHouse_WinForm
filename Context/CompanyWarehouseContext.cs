@@ -145,29 +145,30 @@ namespace CompnayForm.Context
                 .OnDelete(DeleteBehavior.SetNull);
 
             // Add to your OnModelCreating method
-            modelBuilder.Entity<CustomerOwnerRelationship>()
-                .HasOne(r => r.Customer)
-                .WithMany()
-                .HasForeignKey(r => r.CustomerId)
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<CustomerOwnerRelationship>(COR =>
+            {
+                COR.HasOne(r => r.Customer)
+                    .WithMany()
+                    .HasForeignKey(r => r.CustomerId)
+                    .OnDelete(DeleteBehavior.Cascade);
+                COR.HasOne(r => r.Owner)
+                    .WithMany()
+                    .HasForeignKey(r => r.OwnerId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
 
-            modelBuilder.Entity<CustomerOwnerRelationship>()
-                .HasOne(r => r.Owner)
-                .WithMany()
-                .HasForeignKey(r => r.OwnerId)
-                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<SupplierOwnerRelationship>(SOR =>
+            {
+                SOR.HasOne(r => r.Supplier)
+                    .WithMany()
+                    .HasForeignKey(r => r.SupplierId)
+                    .OnDelete(DeleteBehavior.Cascade);
+                SOR.HasOne(r => r.Owner)
+                    .WithMany()
+                    .HasForeignKey(r => r.OwnerId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
 
-            modelBuilder.Entity<SupplierOwnerRelationship>()
-                .HasOne(r => r.Supplier)
-                .WithMany()
-                .HasForeignKey(r => r.SupplierId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<SupplierOwnerRelationship>()
-                .HasOne(r => r.Owner)
-                .WithMany()
-                .HasForeignKey(r => r.OwnerId)
-                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Notification>()
                 .HasOne(n => n.Recipient)

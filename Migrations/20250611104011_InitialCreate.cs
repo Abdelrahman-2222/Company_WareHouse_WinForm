@@ -12,19 +12,6 @@ namespace CompanyForm.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "UnitOfMeasurements",
-                columns: table => new
-                {
-                    UnitOfMeasurementId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UnitOfMeasurementName = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_UnitOfMeasurements", x => x.UnitOfMeasurementId);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -250,7 +237,8 @@ namespace CompanyForm.Migrations
                     ItemCode = table.Column<int>(type: "int", nullable: false),
                     ItemName = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
                     Category = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    WarehouseId = table.Column<int>(type: "int", nullable: false)
+                    WarehouseId = table.Column<int>(type: "int", nullable: false),
+                    Qunatity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -314,30 +302,6 @@ namespace CompanyForm.Migrations
                         principalTable: "Items",
                         principalColumn: "ItemId",
                         onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "ItemUnitOfMeasurements",
-                columns: table => new
-                {
-                    ItemId = table.Column<int>(type: "int", nullable: false),
-                    UnitOfMeasurementId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ItemUnitOfMeasurements", x => new { x.ItemId, x.UnitOfMeasurementId });
-                    table.ForeignKey(
-                        name: "FK_ItemUnitOfMeasurements_Items_ItemId",
-                        column: x => x.ItemId,
-                        principalTable: "Items",
-                        principalColumn: "ItemId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_ItemUnitOfMeasurements_UnitOfMeasurements_UnitOfMeasurementId",
-                        column: x => x.UnitOfMeasurementId,
-                        principalTable: "UnitOfMeasurements",
-                        principalColumn: "UnitOfMeasurementId",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -460,11 +424,6 @@ namespace CompanyForm.Migrations
                 column: "WarehouseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ItemUnitOfMeasurements_UnitOfMeasurementId",
-                table: "ItemUnitOfMeasurements",
-                column: "UnitOfMeasurementId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Notifications_RecipientUserId",
                 table: "Notifications",
                 column: "RecipientUserId");
@@ -566,9 +525,6 @@ namespace CompanyForm.Migrations
                 name: "DisbursementVoucherLists");
 
             migrationBuilder.DropTable(
-                name: "ItemUnitOfMeasurements");
-
-            migrationBuilder.DropTable(
                 name: "Notifications");
 
             migrationBuilder.DropTable(
@@ -582,9 +538,6 @@ namespace CompanyForm.Migrations
 
             migrationBuilder.DropTable(
                 name: "DisbursementVouchers");
-
-            migrationBuilder.DropTable(
-                name: "UnitOfMeasurements");
 
             migrationBuilder.DropTable(
                 name: "SupplyVouchers");

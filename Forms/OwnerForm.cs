@@ -194,6 +194,8 @@ namespace CompanyForm
                     i.ItemId,
                     i.ItemCode,
                     i.ItemName,
+                    i.Category,
+                    i.WarehouseId
                 })
                 .ToList();
 
@@ -213,7 +215,25 @@ namespace CompanyForm
             textBox1.Visible = true;
             itemLbl2.Text = "Item Name";
             itemLbl2.Visible = true;
+            textBox2.PlaceholderText = "Required";
             textBox2.Visible = true;
+            itemLbl3.Text = "Item Category";
+            itemLbl3.Visible = true;
+            textBox3.PlaceholderText = "Required";
+            textBox3.Visible = true;
+
+            itemLbl4.Text = "Warehouse";
+            itemLbl4.Visible = true;
+
+            // Show and populate the ComboBox
+            comboBoxWarehouseId.DataSource = context.Warehouses
+                .Select(w => new { w.WarehouseId, w.WarehouseName })
+                .ToList();
+            comboBoxWarehouseId.DisplayMember = "WarehouseName";
+            comboBoxWarehouseId.ValueMember = "WarehouseId";
+            comboBoxWarehouseId.Visible = true;
+            //textBox4.PlaceholderText = "Required";
+            textBox4.Visible = false;
             option = "AddI";
         }
 
@@ -236,6 +256,25 @@ namespace CompanyForm
             itemLbl3.Visible = true;
             itemLbl3.Text = "Item Name";
             textBox3.Visible = true;
+
+            itemLbl4.Visible = true;
+            itemLbl4.Text = "Item Category";
+            textBox4.Visible = true;
+
+            // 195, 404
+            itemLbl5.Visible = true;
+            itemLbl5.Text = "Warehouse Id";
+
+            // Show and populate the ComboBox
+            comboBoxWarehouseId.DataSource = context.Warehouses
+                .Select(w => new { w.WarehouseId, w.WarehouseName })
+                .ToList();
+            comboBoxWarehouseId.DisplayMember = "WarehouseName";
+            comboBoxWarehouseId.ValueMember = "WarehouseId";
+            comboBoxWarehouseId.Location = new Point(195, 404);
+            comboBoxWarehouseId.Visible = true;
+            //textBox4.PlaceholderText = "Required";
+            textBox5.Visible = false;
 
             option = "UpdateI";
         }
@@ -485,14 +524,17 @@ namespace CompanyForm
                         () => new Item
                         {
                             ItemCode = int.Parse(textBox1.Text.Trim()),
-                            ItemName = textBox2.Text.Trim()
+                            ItemName = textBox2.Text.Trim(),
+                            Category = textBox3.Text.Trim(),
+                            WarehouseId = (int)comboBoxWarehouseId.SelectedValue
                         },
                         context.Items,
                         "Item added successfully!",
                         EntityType.Item
                     );
-                    textBox1.Text = textBox2.Text = "";
+                    textBox1.Text = textBox2.Text = textBox3.Text = "";
                     textBox1.PlaceholderText = textBox2.PlaceholderText = "";
+                    comboBoxWarehouseId.SelectedIndex = -1;
                     break;
                 case "UpdateI":
                     if (TryParseId(textBox1.Text, out int itemId))
@@ -504,6 +546,8 @@ namespace CompanyForm
                                 var i = entity as Item;
                                 i.ItemCode = int.Parse(textBox2.Text.Trim());
                                 i.ItemName = textBox3.Text.Trim();
+                                i.Category = textBox3.Text.Trim();
+                                i.WarehouseId = (int)comboBoxWarehouseId.SelectedValue;
                                 return true;
                             },
                             context.Items,
@@ -835,6 +879,7 @@ namespace CompanyForm
             itemLbl3.Visible = false;
             itemLbl4.Visible = false;
             itemLbl5.Visible = false;
+            comboBoxWarehouseId.Visible = false;
 
         }
 

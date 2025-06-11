@@ -60,6 +60,7 @@
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             AdvancedBtn = new Button();
+            comboBoxWarehouseId = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)OwnerGridView).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
@@ -172,21 +173,21 @@
             // SupplierAddTool
             // 
             SupplierAddTool.Name = "SupplierAddTool";
-            SupplierAddTool.Size = new Size(224, 26);
+            SupplierAddTool.Size = new Size(141, 26);
             SupplierAddTool.Text = "Add";
             SupplierAddTool.Click += SupplierAddTool_Click;
             // 
             // SupplierUpdateTool
             // 
             SupplierUpdateTool.Name = "SupplierUpdateTool";
-            SupplierUpdateTool.Size = new Size(224, 26);
+            SupplierUpdateTool.Size = new Size(141, 26);
             SupplierUpdateTool.Text = "Update";
             SupplierUpdateTool.Click += SupplierUpdateTool_Click;
             // 
             // SupplierDeleteTool
             // 
             SupplierDeleteTool.Name = "SupplierDeleteTool";
-            SupplierDeleteTool.Size = new Size(224, 26);
+            SupplierDeleteTool.Size = new Size(141, 26);
             SupplierDeleteTool.Text = "Delete";
             SupplierDeleteTool.Click += SupplierDeleteTool_Click;
             // 
@@ -204,21 +205,21 @@
             // CustomerAddTool
             // 
             CustomerAddTool.Name = "CustomerAddTool";
-            CustomerAddTool.Size = new Size(224, 26);
+            CustomerAddTool.Size = new Size(141, 26);
             CustomerAddTool.Text = "Add";
             CustomerAddTool.Click += CustomerAddTool_Click;
             // 
             // CustomerUpdateTool
             // 
             CustomerUpdateTool.Name = "CustomerUpdateTool";
-            CustomerUpdateTool.Size = new Size(224, 26);
+            CustomerUpdateTool.Size = new Size(141, 26);
             CustomerUpdateTool.Text = "Update";
             CustomerUpdateTool.Click += CustomerUpdateTool_Click;
             // 
             // CustomerDeleteTool
             // 
             CustomerDeleteTool.Name = "CustomerDeleteTool";
-            CustomerDeleteTool.Size = new Size(224, 26);
+            CustomerDeleteTool.Size = new Size(141, 26);
             CustomerDeleteTool.Text = "Delete";
             CustomerDeleteTool.Click += CustomerDeleteTool_Click;
             // 
@@ -338,11 +339,21 @@
             AdvancedBtn.UseVisualStyleBackColor = true;
             AdvancedBtn.Click += AdvancedBtn_Click;
             // 
-            // Owner
+            // comboBoxWarehouseId
+            // 
+            comboBoxWarehouseId.FormattingEnabled = true;
+            comboBoxWarehouseId.Location = new Point(195, 335);
+            comboBoxWarehouseId.Name = "comboBoxWarehouseId";
+            comboBoxWarehouseId.Size = new Size(195, 28);
+            comboBoxWarehouseId.TabIndex = 19;
+            comboBoxWarehouseId.Visible = false;
+            // 
+            // OwnerForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(940, 540);
+            Controls.Add(comboBoxWarehouseId);
             Controls.Add(AdvancedBtn);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
@@ -358,7 +369,7 @@
             Controls.Add(toolStrip1);
             Controls.Add(SaveBtn);
             Controls.Add(OwnerGridView);
-            Name = "Owner";
+            Name = "OwnerForm";
             Text = "Owner";
             ((System.ComponentModel.ISupportInitialize)OwnerGridView).EndInit();
             toolStrip1.ResumeLayout(false);
@@ -400,5 +411,6 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private Button AdvancedBtn;
+        private ComboBox comboBoxWarehouseId;
     }
 }

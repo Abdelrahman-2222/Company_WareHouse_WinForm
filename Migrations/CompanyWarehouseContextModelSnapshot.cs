@@ -210,6 +210,9 @@ namespace CompanyForm.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int>("Qunatity")
+                        .HasColumnType("int");
+
                     b.Property<int>("WarehouseId")
                         .HasColumnType("int");
 
@@ -221,21 +224,6 @@ namespace CompanyForm.Migrations
                     b.HasIndex("WarehouseId");
 
                     b.ToTable("Items");
-                });
-
-            modelBuilder.Entity("CompanyForm.Entities.ItemUnitOfMeasurement", b =>
-                {
-                    b.Property<int>("ItemId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UnitOfMeasurementId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ItemId", "UnitOfMeasurementId");
-
-                    b.HasIndex("UnitOfMeasurementId");
-
-                    b.ToTable("ItemUnitOfMeasurements");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.Notification", b =>
@@ -477,24 +465,6 @@ namespace CompanyForm.Migrations
                     b.ToTable("TransferOperations");
                 });
 
-            modelBuilder.Entity("CompanyForm.Entities.UnitOfMeasurement", b =>
-                {
-                    b.Property<int>("UnitOfMeasurementId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UnitOfMeasurementId"));
-
-                    b.Property<string>("UnitOfMeasurementName")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("nvarchar(15)");
-
-                    b.HasKey("UnitOfMeasurementId");
-
-                    b.ToTable("UnitOfMeasurements");
-                });
-
             modelBuilder.Entity("CompnayForm.Entities.Warehouse", b =>
                 {
                     b.Property<int>("WarehouseId")
@@ -604,25 +574,6 @@ namespace CompanyForm.Migrations
                         .IsRequired();
 
                     b.Navigation("Warehouse");
-                });
-
-            modelBuilder.Entity("CompanyForm.Entities.ItemUnitOfMeasurement", b =>
-                {
-                    b.HasOne("CompanyForm.Entities.Item", "Item")
-                        .WithMany("ItemUnitOfMeasurements")
-                        .HasForeignKey("ItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("CompanyForm.Entities.UnitOfMeasurement", "UnitOfMeasurement")
-                        .WithMany("ItemUnitOfMeasurements")
-                        .HasForeignKey("UnitOfMeasurementId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Item");
-
-                    b.Navigation("UnitOfMeasurement");
                 });
 
             modelBuilder.Entity("CompanyForm.Entities.Notification", b =>
@@ -771,8 +722,6 @@ namespace CompanyForm.Migrations
                 {
                     b.Navigation("DisbursementVoucherLists");
 
-                    b.Navigation("ItemUnitOfMeasurements");
-
                     b.Navigation("SupplyVoucherLists");
 
                     b.Navigation("TransferOperations");
@@ -788,11 +737,6 @@ namespace CompanyForm.Migrations
             modelBuilder.Entity("CompanyForm.Entities.SupplyVoucher", b =>
                 {
                     b.Navigation("SupplyVoucherLists");
-                });
-
-            modelBuilder.Entity("CompanyForm.Entities.UnitOfMeasurement", b =>
-                {
-                    b.Navigation("ItemUnitOfMeasurements");
                 });
 
             modelBuilder.Entity("CompnayForm.Entities.Warehouse", b =>

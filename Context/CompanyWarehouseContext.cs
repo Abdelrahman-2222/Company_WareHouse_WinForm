@@ -63,8 +63,8 @@ namespace CompnayForm.Context
                 .HasIndex(D => D.DisbursementVoucherNumber)
                 .IsUnique();
 
-            modelBuilder.Entity<ItemUnitOfMeasurement>()
-                .HasKey(IUOM => new { IUOM.ItemId, IUOM.UnitOfMeasurementId });
+            //modelBuilder.Entity<ItemUnitOfMeasurement>()
+            //    .HasKey(IUOM => new { IUOM.ItemId, IUOM.UnitOfMeasurementId });
 
             modelBuilder.Entity<SupplyVoucherList>(SVL =>
             {
@@ -188,8 +188,8 @@ namespace CompnayForm.Context
         public virtual DbSet<DisbursementVoucherList> DisbursementVoucherLists { get; set; }
         public virtual DbSet<SupplyVoucher> SupplyVouchers { get; set; }
         public virtual DbSet<SupplyVoucherList> SupplyVoucherLists { get; set; }
-        public virtual DbSet<ItemUnitOfMeasurement> ItemUnitOfMeasurements { get; set; }
-        public virtual DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
+        //public virtual DbSet<ItemUnitOfMeasurement> ItemUnitOfMeasurements { get; set; }
+        //public virtual DbSet<UnitOfMeasurement> UnitOfMeasurements { get; set; }
         public virtual DbSet<TransferOperation> TransferOperations { get; set; }
         public virtual DbSet<AppUser> Users { get; set; }
         public virtual DbSet<Owner> Owners { get; set; }

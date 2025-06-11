@@ -40,11 +40,6 @@
             quantityLabel = new Label();
             quantityTextBox = new TextBox();
             requestItemButton = new Button();
-            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn4 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
             myOrdersTab = new TabPage();
             notificationsTab = new TabPage();
             ownerRelationshipsPanel = new FlowLayoutPanel();
@@ -82,23 +77,22 @@
             // 
             categoryLabel.Location = new Point(10, 15);
             categoryLabel.Name = "categoryLabel";
-            categoryLabel.Size = new Size(100, 23);
+            categoryLabel.Size = new Size(87, 23);
             categoryLabel.TabIndex = 0;
             categoryLabel.Text = "Category:";
             // 
             // categoryFilterComboBox
             // 
-            categoryFilterComboBox.Location = new Point(80, 12);
+            categoryFilterComboBox.Location = new Point(116, 15);
             categoryFilterComboBox.Name = "categoryFilterComboBox";
-            categoryFilterComboBox.Size = new Size(200, 28);
+            categoryFilterComboBox.Size = new Size(186, 28);
             categoryFilterComboBox.TabIndex = 1;
             categoryFilterComboBox.SelectedIndexChanged += categoryFilterComboBox_SelectedIndexChanged;
             // 
             // itemsGridView
             // 
             itemsGridView.ColumnHeadersHeight = 29;
-            itemsGridView.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5 });
-            itemsGridView.Location = new Point(10, 54);
+            itemsGridView.Location = new Point(10, 49);
             itemsGridView.MultiSelect = false;
             itemsGridView.Name = "itemsGridView";
             itemsGridView.RowHeadersWidth = 51;
@@ -149,16 +143,17 @@
             // 
             quantityLabel.Location = new Point(10, 100);
             quantityLabel.Name = "quantityLabel";
-            quantityLabel.Size = new Size(100, 23);
+            quantityLabel.Size = new Size(76, 23);
             quantityLabel.TabIndex = 3;
             quantityLabel.Text = "Quantity:";
             // 
             // quantityTextBox
             // 
-            quantityTextBox.Location = new Point(91, 97);
+            quantityTextBox.Location = new Point(92, 100);
             quantityTextBox.Name = "quantityTextBox";
-            quantityTextBox.Size = new Size(117, 27);
+            quantityTextBox.Size = new Size(86, 27);
             quantityTextBox.TabIndex = 4;
+            quantityTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // requestItemButton
             // 
@@ -168,36 +163,6 @@
             requestItemButton.TabIndex = 5;
             requestItemButton.Text = "Request Item";
             requestItemButton.Click += requestItemButton_Click;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            dataGridViewTextBoxColumn4.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            dataGridViewTextBoxColumn5.Width = 125;
             // 
             // myOrdersTab
             // 
@@ -264,10 +229,5 @@
 
         // Relationship status components
         private FlowLayoutPanel ownerRelationshipsPanel;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
     }
 }

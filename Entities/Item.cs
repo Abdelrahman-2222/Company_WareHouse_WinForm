@@ -24,7 +24,7 @@ namespace CompanyForm.Entities
         [RegularExpression(@"^[A-Za-z\s]+$", ErrorMessage = "Name must contain only letters and spaces.")]
         public string ItemName { get; set; }
 
-        public ICollection<ItemUnitOfMeasurement> ItemUnitOfMeasurements { get; set; }
+        //public ICollection<ItemUnitOfMeasurement> ItemUnitOfMeasurements { get; set; }
         public ICollection<SupplyVoucherList> SupplyVoucherLists { get; set; }
         public ICollection<DisbursementVoucherList> DisbursementVoucherLists { get; set; }
         public ICollection<TransferOperation> TransferOperations { get; set; }
@@ -33,5 +33,7 @@ namespace CompanyForm.Entities
         public string Category { get; set; }
         public int WarehouseId { get; set; }
         public Warehouse Warehouse { get; set; }
+
+        public int Qunatity { get; set; }
     }
 }
